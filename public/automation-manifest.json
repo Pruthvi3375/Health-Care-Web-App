@@ -1,0 +1,70 @@
+{
+  "app": "HealthCore EMS",
+  "version": "1.0.0",
+  "purpose": "Playwright automation validation playground",
+  "demoAccounts": [
+    { "role": "admin", "email": "admin@healthcore.demo", "password": "Admin123!" },
+    { "role": "scheduler", "email": "scheduler@healthcore.demo", "password": "Schedule123!" },
+    { "role": "billing", "email": "billing@healthcore.demo", "password": "Billing123!" }
+  ],
+  "chaosMode": {
+    "toggle": "chaos-mode-toggle",
+    "options": ["locatorChanges", "labelChanges", "domRestructure", "missingTestIds", "dynamicRender"]
+  },
+  "routes": [
+    {
+      "route": "/login",
+      "name": "Authentication",
+      "entities": ["user"],
+      "actions": ["login"],
+      "primaryTestIds": ["auth-email", "auth-password", "auth-login-submit"]
+    },
+    {
+      "route": "/dashboard",
+      "name": "Dashboard",
+      "entities": ["patient", "appointment", "claim"],
+      "actions": ["view_stats", "quick_navigate"],
+      "primaryTestIds": ["dashboard-page", "dashboard-stat-patients", "dashboard-quick-add-patient"]
+    },
+    {
+      "route": "/patients",
+      "name": "Patient Management",
+      "entities": ["patient"],
+      "actions": ["create", "edit", "delete", "search", "filter", "sort", "paginate"],
+      "primaryTestIds": ["patients-page", "patient-search", "patient-add-btn", "patient-table", "modal-patient"],
+      "requiredRoles": ["admin", "scheduler"]
+    },
+    {
+      "route": "/providers",
+      "name": "Provider Management",
+      "entities": ["provider"],
+      "actions": ["create", "edit", "search", "filter", "sort", "paginate"],
+      "primaryTestIds": ["providers-page", "provider-add-btn", "provider-table"],
+      "requiredRoles": ["admin", "scheduler"]
+    },
+    {
+      "route": "/appointments",
+      "name": "Appointment Scheduling",
+      "entities": ["appointment"],
+      "actions": ["create", "edit", "search", "filter", "sort", "paginate"],
+      "primaryTestIds": ["appointments-page", "appointment-add-btn", "appointment-table"],
+      "requiredRoles": ["admin", "scheduler"]
+    },
+    {
+      "route": "/claims",
+      "name": "Claims Management",
+      "entities": ["claim"],
+      "actions": ["view", "update_status", "search", "filter", "sort", "paginate"],
+      "primaryTestIds": ["claims-page", "claim-table", "modal-claim"],
+      "requiredRoles": ["admin", "billing"]
+    },
+    {
+      "route": "/uploads",
+      "name": "Document Upload",
+      "entities": ["upload"],
+      "actions": ["upload", "list", "paginate"],
+      "primaryTestIds": ["uploads-page", "upload-dropzone", "upload-submit"],
+      "requiredRoles": ["admin", "billing"]
+    }
+  ]
+}

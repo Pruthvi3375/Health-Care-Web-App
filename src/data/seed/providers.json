@@ -1,0 +1,42 @@
+[
+  {
+    "id": "PRV001",
+    "npi": "1234567890",
+    "firstName": "Sarah",
+    "lastName": "Williams",
+    "specialty": "Internal Medicine",
+    "email": "s.williams@healthcore.demo",
+    "phone": "555-1001",
+    "active": true
+  },
+  {
+    "id": "PRV002",
+    "npi": "2345678901",
+    "firstName": "James",
+    "lastName": "Harrison",
+    "specialty": "Cardiology",
+    "email": "j.harrison@healthcore.demo",
+    "phone": "555-1002",
+    "active": true
+  },
+  {
+    "id": "PRV003",
+    "npi": "3456789012",
+    "firstName": "Maria",
+    "lastName": "Gonzalez",
+    "specialty": "Pediatrics",
+    "email": "m.gonzalez@healthcore.demo",
+    "phone": "555-1003",
+    "active": true
+  },
+  {
+    "id": "PRV004",
+    "npi": "4567890123",
+    "firstName": "Kevin",
+    "lastName": "Park",
+    "specialty": "Orthopedics",
+    "email": "k.park@healthcore.demo",
+    "phone": "555-1004",
+    "active": false
+  }
+]

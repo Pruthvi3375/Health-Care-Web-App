@@ -1,0 +1,23 @@
+[
+  {
+    "id": "user-1",
+    "email": "admin@healthcore.demo",
+    "name": "Alex Morgan",
+    "role": "admin",
+    "password": "Admin123!"
+  },
+  {
+    "id": "user-2",
+    "email": "scheduler@healthcore.demo",
+    "name": "Jamie Chen",
+    "role": "scheduler",
+    "password": "Schedule123!"
+  },
+  {
+    "id": "user-3",
+    "email": "billing@healthcore.demo",
+    "name": "Taylor Brooks",
+    "role": "billing",
+    "password": "Billing123!"
+  }
+]

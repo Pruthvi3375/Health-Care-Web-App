@@ -1,0 +1,74 @@
+[
+  {
+    "id": "P001",
+    "mrn": "MRN-10001",
+    "firstName": "Elena",
+    "lastName": "Rivera",
+    "dateOfBirth": "1985-03-14",
+    "email": "elena.rivera@email.demo",
+    "phone": "555-0101",
+    "status": "active",
+    "primaryProviderId": "PRV001",
+    "createdAt": "2024-01-15T10:00:00Z"
+  },
+  {
+    "id": "P002",
+    "mrn": "MRN-10002",
+    "firstName": "Marcus",
+    "lastName": "Thompson",
+    "dateOfBirth": "1972-11-22",
+    "email": "marcus.thompson@email.demo",
+    "phone": "555-0102",
+    "status": "active",
+    "primaryProviderId": "PRV002",
+    "createdAt": "2024-02-20T10:00:00Z"
+  },
+  {
+    "id": "P003",
+    "mrn": "MRN-10003",
+    "firstName": "Sofia",
+    "lastName": "Patel",
+    "dateOfBirth": "1990-07-08",
+    "email": "sofia.patel@email.demo",
+    "phone": "555-0103",
+    "status": "pending",
+    "primaryProviderId": "PRV001",
+    "createdAt": "2024-03-05T10:00:00Z"
+  },
+  {
+    "id": "P004",
+    "mrn": "MRN-10004",
+    "firstName": "David",
+    "lastName": "Kim",
+    "dateOfBirth": "1968-12-30",
+    "email": "david.kim@email.demo",
+    "phone": "555-0104",
+    "status": "inactive",
+    "primaryProviderId": "PRV003",
+    "createdAt": "2024-01-28T10:00:00Z"
+  },
+  {
+    "id": "P005",
+    "mrn": "MRN-10005",
+    "firstName": "Nina",
+    "lastName": "Okafor",
+    "dateOfBirth": "1995-04-18",
+    "email": "nina.okafor@email.demo",
+    "phone": "555-0105",
+    "status": "active",
+    "primaryProviderId": "PRV002",
+    "createdAt": "2024-04-10T10:00:00Z"
+  },
+  {
+    "id": "P006",
+    "mrn": "MRN-10006",
+    "firstName": "Robert",
+    "lastName": "Nguyen",
+    "dateOfBirth": "1980-09-25",
+    "email": "robert.nguyen@email.demo",
+    "phone": "555-0106",
+    "status": "active",
+    "primaryProviderId": "PRV001",
+    "createdAt": "2024-05-01T10:00:00Z"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "UPL001",
+    "fileName": "lab-results-rivera.pdf",
+    "fileSize": 245760,
+    "mimeType": "application/pdf",
+    "patientId": "P001",
+    "claimId": "CLM001",
+    "status": "completed",
+    "uploadedAt": "2025-05-03T14:00:00Z"
+  },
+  {
+    "id": "UPL002",
+    "fileName": "referral-thompson.pdf",
+    "fileSize": 128000,
+    "mimeType": "application/pdf",
+    "patientId": "P002",
+    "status": "completed",
+    "uploadedAt": "2025-05-12T09:30:00Z"
+  }
+]

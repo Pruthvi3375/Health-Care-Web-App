@@ -1,0 +1,62 @@
+[
+  {
+    "id": "APT001",
+    "patientId": "P001",
+    "providerId": "PRV001",
+    "date": "2025-06-10",
+    "time": "09:00",
+    "type": "Follow-up",
+    "status": "scheduled",
+    "notes": "Annual wellness check"
+  },
+  {
+    "id": "APT002",
+    "patientId": "P002",
+    "providerId": "PRV002",
+    "date": "2025-06-11",
+    "time": "10:30",
+    "type": "Consultation",
+    "status": "scheduled",
+    "notes": "Cardiac evaluation"
+  },
+  {
+    "id": "APT003",
+    "patientId": "P003",
+    "providerId": "PRV001",
+    "date": "2025-06-05",
+    "time": "14:00",
+    "type": "New Patient",
+    "status": "completed",
+    "notes": "Initial intake completed"
+  },
+  {
+    "id": "APT004",
+    "patientId": "P004",
+    "providerId": "PRV003",
+    "date": "2025-05-28",
+    "time": "11:00",
+    "type": "Follow-up",
+    "status": "cancelled",
+    "notes": "Patient rescheduled"
+  },
+  {
+    "id": "APT005",
+    "patientId": "P005",
+    "providerId": "PRV002",
+    "date": "2025-06-15",
+    "time": "15:30",
+    "type": "Procedure",
+    "status": "scheduled",
+    "notes": "Echocardiogram"
+  },
+  {
+    "id": "APT006",
+    "patientId": "P006",
+    "providerId": "PRV001",
+    "date": "2025-05-20",
+    "time": "08:30",
+    "type": "Follow-up",
+    "status": "no-show",
+    "notes": "Patient did not arrive"
+  }
+]

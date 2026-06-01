@@ -1,0 +1,57 @@
+[
+  {
+    "id": "CLM001",
+    "claimNumber": "CLM-2025-0001",
+    "patientId": "P001",
+    "providerId": "PRV001",
+    "serviceDate": "2025-05-01",
+    "amount": 450.0,
+    "status": "paid",
+    "diagnosisCode": "Z00.00",
+    "submittedAt": "2025-05-02T08:00:00Z"
+  },
+  {
+    "id": "CLM002",
+    "claimNumber": "CLM-2025-0002",
+    "patientId": "P002",
+    "providerId": "PRV002",
+    "serviceDate": "2025-05-10",
+    "amount": 1200.0,
+    "status": "pending",
+    "diagnosisCode": "I10",
+    "submittedAt": "2025-05-11T09:00:00Z"
+  },
+  {
+    "id": "CLM003",
+    "claimNumber": "CLM-2025-0003",
+    "patientId": "P003",
+    "providerId": "PRV001",
+    "serviceDate": "2025-05-15",
+    "amount": 275.5,
+    "status": "submitted",
+    "diagnosisCode": "R51",
+    "submittedAt": "2025-05-16T10:00:00Z"
+  },
+  {
+    "id": "CLM004",
+    "claimNumber": "CLM-2025-0004",
+    "patientId": "P004",
+    "providerId": "PRV003",
+    "serviceDate": "2025-04-20",
+    "amount": 890.0,
+    "status": "denied",
+    "diagnosisCode": "M54.5",
+    "submittedAt": "2025-04-21T11:00:00Z"
+  },
+  {
+    "id": "CLM005",
+    "claimNumber": "CLM-2025-0005",
+    "patientId": "P005",
+    "providerId": "PRV002",
+    "serviceDate": "2025-05-22",
+    "amount": 3200.0,
+    "status": "pending",
+    "diagnosisCode": "I25.10",
+    "submittedAt": "2025-05-23T12:00:00Z"
+  }
+]
