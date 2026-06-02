@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "repoRoot": "C:\\Users\\ravir\\OneDrive\\Documents\\Project Automation\\Front End Project",
+  "repoRoot": "E:\\Project\\Health-Care-Web-App",
   "framework": "react",
-  "scannedAt": "2026-05-23T16:50:10.466Z",
+  "scannedAt": "2026-06-02T18:20:11.862Z",
   "filesScanned": 32,
   "locators": [
     {
@@ -9306,7 +9306,7 @@
       "componentNames": [
         "ChaosPanel"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-02T18:20:11.862Z"
     },
     {
       "filePath": "src/components/filters/SearchBar.tsx",
@@ -9317,7 +9317,7 @@
       "componentNames": [
         "SearchBar"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-02T18:20:11.862Z"
     },
     {
       "filePath": "src/components/layout/AppShell.tsx",
@@ -9329,7 +9329,7 @@
       "componentNames": [
         "AppShell"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-02T18:20:11.862Z"
     },
     {
       "filePath": "src/components/layout/PageHeader.tsx",
@@ -9340,7 +9340,7 @@
       "componentNames": [
         "PageHeader"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-02T18:20:11.862Z"
     },
     {
       "filePath": "src/components/layout/Sidebar.tsx",
@@ -9355,7 +9355,7 @@
       "componentNames": [
         "Sidebar"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-02T18:20:11.862Z"
     },
     {
       "filePath": "src/components/modals/Modal.tsx",
@@ -9369,7 +9369,7 @@
       "componentNames": [
         "Modal"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-02T18:20:11.862Z"
     },
     {
       "filePath": "src/components/tables/DataTable.tsx",
@@ -9382,7 +9382,7 @@
       "componentNames": [
         "DataTable"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-02T18:20:11.862Z"
     },
     {
       "filePath": "src/components/tables/TablePagination.tsx",
@@ -9396,7 +9396,7 @@
       "componentNames": [
         "TablePagination"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-02T18:20:11.862Z"
     },
     {
       "filePath": "src/components/ui/Button.tsx",
@@ -9407,7 +9407,7 @@
       "componentNames": [
         "Button"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-02T18:20:11.862Z"
     },
     {
       "filePath": "src/components/ui/Input.tsx",
@@ -9418,7 +9418,7 @@
       "componentNames": [
         "Input"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-02T18:20:11.862Z"
     },
     {
       "filePath": "src/components/ui/Select.tsx",
@@ -9429,7 +9429,7 @@
       "componentNames": [
         "Select"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-02T18:20:11.862Z"
     },
     {
       "filePath": "src/components/ui/Spinner.tsx",
@@ -9441,7 +9441,7 @@
       "componentNames": [
         "Spinner"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-02T18:20:11.862Z"
     },
     {
       "filePath": "src/context/ToastContext.tsx",
@@ -9455,7 +9455,7 @@
       "componentNames": [
         "ToastProvider"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-02T18:20:11.862Z"
     },
     {
       "filePath": "src/features/appointments/AppointmentModal.tsx",
@@ -9476,7 +9476,7 @@
       "componentNames": [
         "AppointmentModal"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-02T18:20:11.862Z"
     },
     {
       "filePath": "src/features/appointments/AppointmentsPage.tsx",
@@ -9493,7 +9493,7 @@
       "componentNames": [
         "AppointmentsPage"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-02T18:20:11.862Z"
     },
     {
       "filePath": "src/features/auth/LoginPage.tsx",
@@ -9512,7 +9512,7 @@
       "componentNames": [
         "LoginPage"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-02T18:20:11.862Z"
     },
     {
       "filePath": "src/features/claims/ClaimsPage.tsx",
@@ -9534,7 +9534,7 @@
       "componentNames": [
         "ClaimsPage"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-02T18:20:11.862Z"
     },
     {
       "filePath": "src/features/dashboard/DashboardPage.tsx",
@@ -9553,7 +9553,7 @@
       "componentNames": [
         "DashboardPage"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-02T18:20:11.862Z"
     },
     {
       "filePath": "src/features/patients/PatientModal.tsx",
@@ -9575,7 +9575,7 @@
       "componentNames": [
         "PatientModal"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-02T18:20:11.862Z"
     },
     {
       "filePath": "src/features/patients/PatientsPage.tsx",
@@ -9593,7 +9593,7 @@
       "componentNames": [
         "PatientsPage"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-02T18:20:11.862Z"
     },
     {
       "filePath": "src/features/providers/ProviderModal.tsx",
@@ -9614,7 +9614,7 @@
       "componentNames": [
         "ProviderModal"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-02T18:20:11.862Z"
     },
     {
       "filePath": "src/features/providers/ProvidersPage.tsx",
@@ -9631,7 +9631,7 @@
       "componentNames": [
         "ProvidersPage"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-02T18:20:11.862Z"
     },
     {
       "filePath": "src/features/uploads/UploadsPage.tsx",
@@ -9651,7 +9651,7 @@
       "componentNames": [
         "UploadsPage"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-02T18:20:11.862Z"
     },
     {
       "filePath": "src/testids/index.ts",
@@ -9736,7 +9736,7 @@
       "componentNames": [
         "TEST_IDS"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-02T18:20:11.862Z"
     }
   ],
   "searchIndexes": {
