@@ -46,7 +46,12 @@ export function searchFilter<T>(
 ): T[] {
   if (!search?.trim()) return items;
   const q = search.toLowerCase();
-  return items.filter((item) =>
-    fields.some((f) => String(item[f]).toLowerCase().includes(q))
-  );
+  return items.filter((item) => {
+    if (fields.some((f) => String(item[f]).toLowerCase().includes(q))) {
+      return true;
+    }
+    // Also check the combined value of all fields (e.g. "John Doe" across firstName + lastName)
+    const combined = fields.map((f) => String(item[f])).join(' ').toLowerCase();
+    return combined.includes(q);
+  });
 }
