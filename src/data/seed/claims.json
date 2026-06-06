@@ -1,8 +1,8 @@
 [
   {
-    "id": "CLM001",
+    "id": "1",
     "claimNumber": "CLM-2025-0001",
-    "patientId": "P001",
+    "patientId": "1",
     "providerId": "PRV001",
     "serviceDate": "2025-05-01",
     "amount": 450.0,
@@ -11,9 +11,9 @@
     "submittedAt": "2025-05-02T08:00:00Z"
   },
   {
-    "id": "CLM002",
+    "id": "2",
     "claimNumber": "CLM-2025-0002",
-    "patientId": "P002",
+    "patientId": "2",
     "providerId": "PRV002",
     "serviceDate": "2025-05-10",
     "amount": 1200.0,
@@ -22,9 +22,9 @@
     "submittedAt": "2025-05-11T09:00:00Z"
   },
   {
-    "id": "CLM003",
+    "id": "3",
     "claimNumber": "CLM-2025-0003",
-    "patientId": "P003",
+    "patientId": "3",
     "providerId": "PRV001",
     "serviceDate": "2025-05-15",
     "amount": 275.5,
@@ -33,9 +33,9 @@
     "submittedAt": "2025-05-16T10:00:00Z"
   },
   {
-    "id": "CLM004",
+    "id": "4",
     "claimNumber": "CLM-2025-0004",
-    "patientId": "P004",
+    "patientId": "4",
     "providerId": "PRV003",
     "serviceDate": "2025-04-20",
     "amount": 890.0,
@@ -44,9 +44,9 @@
     "submittedAt": "2025-04-21T11:00:00Z"
   },
   {
-    "id": "CLM005",
+    "id": "5",
     "claimNumber": "CLM-2025-0005",
-    "patientId": "P005",
+    "patientId": "5",
     "providerId": "PRV002",
     "serviceDate": "2025-05-22",
     "amount": 3200.0,

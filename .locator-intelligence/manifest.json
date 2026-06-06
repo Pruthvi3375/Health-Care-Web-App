@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "repoRoot": "C:\\Users\\ravir\\OneDrive\\Documents\\Project Automation\\Front End Project",
+  "repoRoot": "E:\\Project\\Health-Care-Web-App",
   "framework": "react",
-  "scannedAt": "2026-05-23T16:50:10.466Z",
+  "scannedAt": "2026-06-04T06:39:01.231Z",
   "filesScanned": 32,
   "locators": [
     {
@@ -1849,7 +1849,7 @@
         "filePath": "src/features/appointments/AppointmentsPage.tsx",
         "line": 54,
         "column": 5,
-        "endLine": 156,
+        "endLine": 161,
         "endColumn": 11
       },
       "element": {
@@ -2186,9 +2186,9 @@
       "route": "/login"
     },
     {
-      "id": "c4f13ae4c9bb0b01",
+      "id": "210e18c6a5e6875b",
       "kind": "data-testid",
-      "value": "auth-email",
+      "value": "auth-email-updated",
       "confidence": "explicit",
       "strategy": "getByTestId",
       "source": {
@@ -2216,11 +2216,11 @@
       "semanticPath": [
         "loginpage",
         "login-page",
-        "auth-email"
+        "auth-email-updated"
       ],
       "semanticLabel": "LoginPage data-testid (auth.email)",
       "semanticAliases": [
-        "login-page.auth-email"
+        "login-page.auth-email-updated"
       ],
       "feature": "auth",
       "module": "src/features/auth",
@@ -3573,7 +3573,7 @@
         "filePath": "src/features/patients/PatientsPage.tsx",
         "line": 68,
         "column": 5,
-        "endLine": 207,
+        "endLine": 214,
         "endColumn": 11
       },
       "element": {
@@ -3807,16 +3807,16 @@
       "module": "src/features/patients"
     },
     {
-      "id": "b00ae139aa48c563",
+      "id": "8d8e0403ff8169ae",
       "kind": "data-testid",
       "value": "modal-patient-delete",
       "confidence": "explicit",
       "strategy": "getByTestId",
       "source": {
         "filePath": "src/features/patients/PatientsPage.tsx",
-        "line": 190,
+        "line": 197,
         "column": 7,
-        "endLine": 206,
+        "endLine": 213,
         "endColumn": 9
       },
       "element": {
@@ -4785,9 +4785,9 @@
       "module": "src/features/uploads"
     },
     {
-      "id": "1c922dc52334acd9",
+      "id": "1ab2ebb2dd3f3220",
       "kind": "data-testid",
-      "value": "auth-email",
+      "value": "auth-email-updated",
       "confidence": "explicit",
       "strategy": "getByTestId",
       "source": {
@@ -4813,7 +4813,7 @@
       "semanticKey": "auth.email",
       "semanticPath": [
         "test-ids",
-        "auth-email"
+        "auth-email-updated"
       ],
       "semanticLabel": "TEST_IDS data-testid (auth.email)",
       "module": "src/testids"
@@ -7581,7 +7581,7 @@
     },
     {
       "semanticKey": "auth.email",
-      "locatorId": "c4f13ae4c9bb0b01",
+      "locatorId": "210e18c6a5e6875b",
       "tags": [
         "data-testid",
         "Input"
@@ -7590,7 +7590,7 @@
     },
     {
       "semanticKey": "auth.email",
-      "locatorId": "1c922dc52334acd9",
+      "locatorId": "1ab2ebb2dd3f3220",
       "tags": [
         "data-testid",
         "registry"
@@ -8688,7 +8688,7 @@
     },
     {
       "semanticKey": "patientspage.modal-patient-delete",
-      "locatorId": "b00ae139aa48c563",
+      "locatorId": "8d8e0403ff8169ae",
       "tags": [
         "data-testid",
         "ConfirmDialog"
@@ -9306,7 +9306,7 @@
       "componentNames": [
         "ChaosPanel"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-04T06:39:01.231Z"
     },
     {
       "filePath": "src/components/filters/SearchBar.tsx",
@@ -9317,7 +9317,7 @@
       "componentNames": [
         "SearchBar"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-04T06:39:01.231Z"
     },
     {
       "filePath": "src/components/layout/AppShell.tsx",
@@ -9329,7 +9329,7 @@
       "componentNames": [
         "AppShell"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-04T06:39:01.231Z"
     },
     {
       "filePath": "src/components/layout/PageHeader.tsx",
@@ -9340,7 +9340,7 @@
       "componentNames": [
         "PageHeader"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-04T06:39:01.231Z"
     },
     {
       "filePath": "src/components/layout/Sidebar.tsx",
@@ -9355,7 +9355,7 @@
       "componentNames": [
         "Sidebar"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-04T06:39:01.231Z"
     },
     {
       "filePath": "src/components/modals/Modal.tsx",
@@ -9369,7 +9369,7 @@
       "componentNames": [
         "Modal"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-04T06:39:01.231Z"
     },
     {
       "filePath": "src/components/tables/DataTable.tsx",
@@ -9382,7 +9382,7 @@
       "componentNames": [
         "DataTable"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-04T06:39:01.231Z"
     },
     {
       "filePath": "src/components/tables/TablePagination.tsx",
@@ -9396,7 +9396,7 @@
       "componentNames": [
         "TablePagination"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-04T06:39:01.231Z"
     },
     {
       "filePath": "src/components/ui/Button.tsx",
@@ -9407,7 +9407,7 @@
       "componentNames": [
         "Button"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-04T06:39:01.231Z"
     },
     {
       "filePath": "src/components/ui/Input.tsx",
@@ -9418,7 +9418,7 @@
       "componentNames": [
         "Input"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-04T06:39:01.231Z"
     },
     {
       "filePath": "src/components/ui/Select.tsx",
@@ -9429,7 +9429,7 @@
       "componentNames": [
         "Select"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-04T06:39:01.231Z"
     },
     {
       "filePath": "src/components/ui/Spinner.tsx",
@@ -9441,7 +9441,7 @@
       "componentNames": [
         "Spinner"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-04T06:39:01.231Z"
     },
     {
       "filePath": "src/context/ToastContext.tsx",
@@ -9455,7 +9455,7 @@
       "componentNames": [
         "ToastProvider"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-04T06:39:01.231Z"
     },
     {
       "filePath": "src/features/appointments/AppointmentModal.tsx",
@@ -9476,7 +9476,7 @@
       "componentNames": [
         "AppointmentModal"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-04T06:39:01.231Z"
     },
     {
       "filePath": "src/features/appointments/AppointmentsPage.tsx",
@@ -9493,7 +9493,7 @@
       "componentNames": [
         "AppointmentsPage"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-04T06:39:01.231Z"
     },
     {
       "filePath": "src/features/auth/LoginPage.tsx",
@@ -9502,7 +9502,7 @@
         "c5e62433bce96bd6",
         "8e094957c2b3c897",
         "7a017e6c0476cba2",
-        "c4f13ae4c9bb0b01",
+        "210e18c6a5e6875b",
         "f1b021ae67ddadfe",
         "e9e4a25d3bae0c6b",
         "62360eaa3f74d001",
@@ -9512,7 +9512,7 @@
       "componentNames": [
         "LoginPage"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-04T06:39:01.231Z"
     },
     {
       "filePath": "src/features/claims/ClaimsPage.tsx",
@@ -9534,7 +9534,7 @@
       "componentNames": [
         "ClaimsPage"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-04T06:39:01.231Z"
     },
     {
       "filePath": "src/features/dashboard/DashboardPage.tsx",
@@ -9553,7 +9553,7 @@
       "componentNames": [
         "DashboardPage"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-04T06:39:01.231Z"
     },
     {
       "filePath": "src/features/patients/PatientModal.tsx",
@@ -9575,7 +9575,7 @@
       "componentNames": [
         "PatientModal"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-04T06:39:01.231Z"
     },
     {
       "filePath": "src/features/patients/PatientsPage.tsx",
@@ -9588,12 +9588,12 @@
         "90e0eb07c58fc6ca",
         "c295723db1eaeaa3",
         "100c2bc6315a17d5",
-        "b00ae139aa48c563"
+        "8d8e0403ff8169ae"
       ],
       "componentNames": [
         "PatientsPage"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-04T06:39:01.231Z"
     },
     {
       "filePath": "src/features/providers/ProviderModal.tsx",
@@ -9614,7 +9614,7 @@
       "componentNames": [
         "ProviderModal"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-04T06:39:01.231Z"
     },
     {
       "filePath": "src/features/providers/ProvidersPage.tsx",
@@ -9631,7 +9631,7 @@
       "componentNames": [
         "ProvidersPage"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-04T06:39:01.231Z"
     },
     {
       "filePath": "src/features/uploads/UploadsPage.tsx",
@@ -9651,13 +9651,13 @@
       "componentNames": [
         "UploadsPage"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-04T06:39:01.231Z"
     },
     {
       "filePath": "src/testids/index.ts",
       "framework": "react",
       "locatorIds": [
-        "1c922dc52334acd9",
+        "1ab2ebb2dd3f3220",
         "a9cb02bde56ae41b",
         "3d66e9fa40c5c8f9",
         "734c70b198f5a1e5",
@@ -9736,7 +9736,7 @@
       "componentNames": [
         "TEST_IDS"
       ],
-      "lastIndexedAt": "2026-05-23T16:50:10.466Z"
+      "lastIndexedAt": "2026-06-04T06:39:01.231Z"
     }
   ],
   "searchIndexes": {
@@ -9807,7 +9807,7 @@
       "c5e62433bce96bd6": "c5e62433bce96bd6",
       "8e094957c2b3c897": "8e094957c2b3c897",
       "7a017e6c0476cba2": "7a017e6c0476cba2",
-      "c4f13ae4c9bb0b01": "c4f13ae4c9bb0b01",
+      "210e18c6a5e6875b": "210e18c6a5e6875b",
       "f1b021ae67ddadfe": "f1b021ae67ddadfe",
       "e9e4a25d3bae0c6b": "e9e4a25d3bae0c6b",
       "62360eaa3f74d001": "62360eaa3f74d001",
@@ -9853,7 +9853,7 @@
       "90e0eb07c58fc6ca": "90e0eb07c58fc6ca",
       "c295723db1eaeaa3": "c295723db1eaeaa3",
       "100c2bc6315a17d5": "100c2bc6315a17d5",
-      "b00ae139aa48c563": "b00ae139aa48c563",
+      "8d8e0403ff8169ae": "8d8e0403ff8169ae",
       "07d0608c2c5d8e6d": "07d0608c2c5d8e6d",
       "8860730634627e2d": "8860730634627e2d",
       "fd742c05382df95e": "fd742c05382df95e",
@@ -9882,7 +9882,7 @@
       "9307988b2424e993": "9307988b2424e993",
       "4ddadd60c69507c9": "4ddadd60c69507c9",
       "c729a8b28bff5a1f": "c729a8b28bff5a1f",
-      "1c922dc52334acd9": "1c922dc52334acd9",
+      "1ab2ebb2dd3f3220": "1ab2ebb2dd3f3220",
       "a9cb02bde56ae41b": "a9cb02bde56ae41b",
       "3d66e9fa40c5c8f9": "3d66e9fa40c5c8f9",
       "734c70b198f5a1e5": "734c70b198f5a1e5",
@@ -10072,9 +10072,9 @@
       "login-page": [
         "c5e62433bce96bd6"
       ],
-      "auth-email": [
-        "c4f13ae4c9bb0b01",
-        "1c922dc52334acd9"
+      "auth-email-updated": [
+        "210e18c6a5e6875b",
+        "1ab2ebb2dd3f3220"
       ],
       "auth-password": [
         "f1b021ae67ddadfe",
@@ -10223,7 +10223,7 @@
         "d436aa9cc112f7b4"
       ],
       "modal-patient-delete": [
-        "b00ae139aa48c563"
+        "8d8e0403ff8169ae"
       ],
       "modal-provider": [
         "07d0608c2c5d8e6d",
@@ -10407,7 +10407,7 @@
       "loginpage.login-page": "c5e62433bce96bd6",
       "loginpage.login-page.h1.role.heading": "8e094957c2b3c897",
       "loginpage.login-page.form.role": "7a017e6c0476cba2",
-      "auth.email": "c4f13ae4c9bb0b01",
+      "auth.email": "210e18c6a5e6875b",
       "auth.password": "f1b021ae67ddadfe",
       "auth.roleSelect": "e9e4a25d3bae0c6b",
       "auth.error": "62360eaa3f74d001",
@@ -10453,7 +10453,7 @@
       "patientspage.searchbar.placeholder.search-by-name-mrn-or-email": "90e0eb07c58fc6ca",
       "patients.statusFilter": "c295723db1eaeaa3",
       "patients.table": "100c2bc6315a17d5",
-      "patientspage.modal-patient-delete": "b00ae139aa48c563",
+      "patientspage.modal-patient-delete": "8d8e0403ff8169ae",
       "providers.modal": "07d0608c2c5d8e6d",
       "providermodal.form.id.provider-form": "8860730634627e2d",
       "providermodal.form.role": "fd742c05382df95e",
@@ -10596,7 +10596,7 @@
         "c5e62433bce96bd6",
         "8e094957c2b3c897",
         "7a017e6c0476cba2",
-        "c4f13ae4c9bb0b01",
+        "210e18c6a5e6875b",
         "f1b021ae67ddadfe",
         "e9e4a25d3bae0c6b",
         "62360eaa3f74d001",
@@ -10650,7 +10650,7 @@
         "90e0eb07c58fc6ca",
         "c295723db1eaeaa3",
         "100c2bc6315a17d5",
-        "b00ae139aa48c563"
+        "8d8e0403ff8169ae"
       ],
       "ProviderModal": [
         "07d0608c2c5d8e6d",
@@ -10687,7 +10687,7 @@
         "c729a8b28bff5a1f"
       ],
       "TEST_IDS": [
-        "1c922dc52334acd9",
+        "1ab2ebb2dd3f3220",
         "a9cb02bde56ae41b",
         "3d66e9fa40c5c8f9",
         "734c70b198f5a1e5",
@@ -10862,7 +10862,7 @@
         "c5e62433bce96bd6",
         "8e094957c2b3c897",
         "7a017e6c0476cba2",
-        "c4f13ae4c9bb0b01",
+        "210e18c6a5e6875b",
         "f1b021ae67ddadfe",
         "e9e4a25d3bae0c6b",
         "62360eaa3f74d001",
@@ -10916,7 +10916,7 @@
         "90e0eb07c58fc6ca",
         "c295723db1eaeaa3",
         "100c2bc6315a17d5",
-        "b00ae139aa48c563"
+        "8d8e0403ff8169ae"
       ],
       "src/features/providers/ProviderModal.tsx": [
         "07d0608c2c5d8e6d",
@@ -10953,7 +10953,7 @@
         "c729a8b28bff5a1f"
       ],
       "src/testids/index.ts": [
-        "1c922dc52334acd9",
+        "1ab2ebb2dd3f3220",
         "a9cb02bde56ae41b",
         "3d66e9fa40c5c8f9",
         "734c70b198f5a1e5",
@@ -11063,7 +11063,7 @@
         "05a1d609fd6db761",
         "08a7be8d3a1c6959",
         "c5e62433bce96bd6",
-        "c4f13ae4c9bb0b01",
+        "210e18c6a5e6875b",
         "f1b021ae67ddadfe",
         "e9e4a25d3bae0c6b",
         "62360eaa3f74d001",
@@ -11103,7 +11103,7 @@
         "21754f706b5f6d9e",
         "c295723db1eaeaa3",
         "100c2bc6315a17d5",
-        "b00ae139aa48c563",
+        "8d8e0403ff8169ae",
         "07d0608c2c5d8e6d",
         "19d8d84f770c1777",
         "47f15417eec6bf68",
@@ -11125,7 +11125,7 @@
         "f3a075367e53a339",
         "9307988b2424e993",
         "c729a8b28bff5a1f",
-        "1c922dc52334acd9",
+        "1ab2ebb2dd3f3220",
         "a9cb02bde56ae41b",
         "3d66e9fa40c5c8f9",
         "734c70b198f5a1e5",
@@ -11260,9 +11260,9 @@
     },
     "byRoute": {
       "/login": [
+        "210e18c6a5e6875b",
         "519d9e082303d17c",
         "62360eaa3f74d001",
-        "c4f13ae4c9bb0b01",
         "c5e62433bce96bd6",
         "e9e4a25d3bae0c6b",
         "f1b021ae67ddadfe"
@@ -11297,9 +11297,9 @@
         "e155f491971ba9b1"
       ],
       "auth": [
+        "210e18c6a5e6875b",
         "519d9e082303d17c",
         "62360eaa3f74d001",
-        "c4f13ae4c9bb0b01",
         "c5e62433bce96bd6",
         "e9e4a25d3bae0c6b",
         "f1b021ae67ddadfe"
@@ -11334,10 +11334,10 @@
         "21754f706b5f6d9e",
         "4a236052b95cb1e4",
         "78f5d382008a8773",
+        "8d8e0403ff8169ae",
         "93bd6ba16746d845",
         "9efcb96e1e994a1a",
         "a32436fa9d14daac",
-        "b00ae139aa48c563",
         "c295723db1eaeaa3",
         "c2ecf11ce9b38550",
         "d0aecab3c38b4206",
@@ -11414,9 +11414,9 @@
         "e155f491971ba9b1"
       ],
       "src/features/auth": [
+        "210e18c6a5e6875b",
         "519d9e082303d17c",
         "62360eaa3f74d001",
-        "c4f13ae4c9bb0b01",
         "c5e62433bce96bd6",
         "e9e4a25d3bae0c6b",
         "f1b021ae67ddadfe"
@@ -11451,10 +11451,10 @@
         "21754f706b5f6d9e",
         "4a236052b95cb1e4",
         "78f5d382008a8773",
+        "8d8e0403ff8169ae",
         "93bd6ba16746d845",
         "9efcb96e1e994a1a",
         "a32436fa9d14daac",
-        "b00ae139aa48c563",
         "c295723db1eaeaa3",
         "c2ecf11ce9b38550",
         "d0aecab3c38b4206",
@@ -11493,8 +11493,8 @@
         "0a77c1e25a45252d",
         "15419721472c43d4",
         "184d1d4574e8b1e0",
+        "1ab2ebb2dd3f3220",
         "1b76f24f2acae03c",
-        "1c922dc52334acd9",
         "1d4db9deb04e6802",
         "1da80aa84ff5b43f",
         "1e38bbeb7d3ee9a9",
@@ -11787,9 +11787,9 @@
   "groups": {
     "byRoute": {
       "/login": [
+        "210e18c6a5e6875b",
         "519d9e082303d17c",
         "62360eaa3f74d001",
-        "c4f13ae4c9bb0b01",
         "c5e62433bce96bd6",
         "e9e4a25d3bae0c6b",
         "f1b021ae67ddadfe"
@@ -11824,9 +11824,9 @@
         "e155f491971ba9b1"
       ],
       "auth": [
+        "210e18c6a5e6875b",
         "519d9e082303d17c",
         "62360eaa3f74d001",
-        "c4f13ae4c9bb0b01",
         "c5e62433bce96bd6",
         "e9e4a25d3bae0c6b",
         "f1b021ae67ddadfe"
@@ -11861,10 +11861,10 @@
         "21754f706b5f6d9e",
         "4a236052b95cb1e4",
         "78f5d382008a8773",
+        "8d8e0403ff8169ae",
         "93bd6ba16746d845",
         "9efcb96e1e994a1a",
         "a32436fa9d14daac",
-        "b00ae139aa48c563",
         "c295723db1eaeaa3",
         "c2ecf11ce9b38550",
         "d0aecab3c38b4206",
@@ -11941,9 +11941,9 @@
         "e155f491971ba9b1"
       ],
       "src/features/auth": [
+        "210e18c6a5e6875b",
         "519d9e082303d17c",
         "62360eaa3f74d001",
-        "c4f13ae4c9bb0b01",
         "c5e62433bce96bd6",
         "e9e4a25d3bae0c6b",
         "f1b021ae67ddadfe"
@@ -11978,10 +11978,10 @@
         "21754f706b5f6d9e",
         "4a236052b95cb1e4",
         "78f5d382008a8773",
+        "8d8e0403ff8169ae",
         "93bd6ba16746d845",
         "9efcb96e1e994a1a",
         "a32436fa9d14daac",
-        "b00ae139aa48c563",
         "c295723db1eaeaa3",
         "c2ecf11ce9b38550",
         "d0aecab3c38b4206",
@@ -12020,8 +12020,8 @@
         "0a77c1e25a45252d",
         "15419721472c43d4",
         "184d1d4574e8b1e0",
+        "1ab2ebb2dd3f3220",
         "1b76f24f2acae03c",
-        "1c922dc52334acd9",
         "1d4db9deb04e6802",
         "1da80aa84ff5b43f",
         "1e38bbeb7d3ee9a9",
@@ -12139,9 +12139,9 @@
         "e155f491971ba9b1"
       ],
       "LoginPage": [
+        "210e18c6a5e6875b",
         "519d9e082303d17c",
         "62360eaa3f74d001",
-        "c4f13ae4c9bb0b01",
         "c5e62433bce96bd6",
         "e9e4a25d3bae0c6b",
         "f1b021ae67ddadfe"
@@ -12184,9 +12184,9 @@
       "PatientsPage": [
         "100c2bc6315a17d5",
         "21754f706b5f6d9e",
+        "8d8e0403ff8169ae",
         "9efcb96e1e994a1a",
         "a32436fa9d14daac",
-        "b00ae139aa48c563",
         "c295723db1eaeaa3",
         "d3247de90ff0f523"
       ],
@@ -12222,8 +12222,8 @@
         "0a77c1e25a45252d",
         "15419721472c43d4",
         "184d1d4574e8b1e0",
+        "1ab2ebb2dd3f3220",
         "1b76f24f2acae03c",
-        "1c922dc52334acd9",
         "1d4db9deb04e6802",
         "1da80aa84ff5b43f",
         "1e38bbeb7d3ee9a9",
@@ -12371,7 +12371,7 @@
     },
     {
       "path": "auth.email",
-      "value": "auth-email",
+      "value": "auth-email-updated",
       "parameterized": false,
       "sourceFile": "src/testids/index.ts",
       "line": 3

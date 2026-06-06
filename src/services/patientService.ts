@@ -33,9 +33,16 @@ export async function createPatient(
   if (db.patients.some((p) => p.mrn === data.mrn)) {
     throw new Error('A patient with this MRN already exists.');
   }
+  // Derive the next id from the highest existing numeric suffix so ids stay
+  // unique even after deletions (length+1 could otherwise collide).
+  const nextNum =
+    db.patients.reduce((max, p) => {
+      const n = Number(p.id.replace(/\D/g, ''));
+      return Number.isFinite(n) && n > max ? n : max;
+    }, 0) + 1;
   const patient: Patient = {
     ...data,
-    id: `P${String(db.patients.length + 1).padStart(3, '0')}`,
+    id: String(nextNum),
     createdAt: new Date().toISOString(),
   };
   db.patients.push(patient);

@@ -1,6 +1,6 @@
 export const TEST_IDS = {
   auth: {
-    email: 'auth-email',
+    email: 'auth-email-updated',
     password: 'auth-password',
     loginSubmit: 'auth-login-submit',
     error: 'auth-error',

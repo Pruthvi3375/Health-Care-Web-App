@@ -1,6 +1,6 @@
 import type { Appointment, ListParams, PaginatedResult } from '../types';
 import { getDb, persistDb } from './storage';
-import { delay, paginate, searchFilter, sortItems } from './listUtils';
+import { delay, paginate, sortItems } from './listUtils';
 
 export async function listAppointments(
   params: ListParams = {}
@@ -10,7 +10,17 @@ export async function listAppointments(
   if (params.filters?.status) {
     items = items.filter((a) => a.status === params.filters!.status);
   }
-  items = searchFilter(items, params.search, ['type', 'notes', 'date']);
+  if (params.search?.trim()) {
+    const q = params.search.toLowerCase();
+    const patients = getDb().patients;
+    items = items.filter((appointment) => {
+      const patient = patients.find((p) => p.id === appointment.patientId);
+      const patientName = patient ? `${patient.firstName} ${patient.lastName}` : '';
+      return [appointment.type, appointment.notes, appointment.date, patientName].some((value) =>
+        value.toLowerCase().includes(q)
+      );
+    });
+  }
   items = sortItems(items, params.sortBy, params.sortDir);
   return paginate(items, params);
 }
@@ -32,9 +42,14 @@ export async function createAppointment(
       'This provider already has a scheduled appointment at that date and time.'
     );
   }
+  const nextNum =
+    db.appointments.reduce((max, appointment) => {
+      const n = Number(appointment.id.replace(/\D/g, ''));
+      return Number.isFinite(n) && n > max ? n : max;
+    }, 0) + 1;
   const appointment: Appointment = {
     ...data,
-    id: `APT${String(db.appointments.length + 1).padStart(3, '0')}`,
+    id: String(nextNum),
   };
   db.appointments.push(appointment);
   persistDb();
