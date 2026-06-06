@@ -31,7 +31,7 @@ export function PatientsPage() {
   const activeChaos = chaos.enabled ? chaos : undefined;
   const ready = useDynamicRender();
   const { params, setSearch, setFilter, setSort, setPage, setPageSize } =
-    useListParams({ sortBy: 'lastName' });
+    useListParams({ sortBy: 'createdAt', sortDir: 'desc' });
   const [result, setResult] = useState<{ data: Patient[]; total: number }>({
     data: [],
     total: 0,
@@ -180,11 +180,18 @@ export function PatientsPage() {
           if (editing) {
             await updatePatient(editing.id, data);
             showToast('success', `Patient ${data.firstName} ${data.lastName} updated.`);
+            load();
           } else {
-            await createPatient(data);
+            const created = await createPatient(data);
             showToast('success', `Patient ${data.firstName} ${data.lastName} created.`);
+            setResult((current) => ({
+              data: [created, ...current.data].slice(0, params.pageSize ?? 5),
+              total: current.total + 1,
+            }));
+            // Surface the new record immediately: jump to page 1, newest first.
+            // Changing params re-triggers the load effect automatically.
+            setSort('createdAt', 'desc');
           }
-          load();
         }}
       />
       <ConfirmDialog

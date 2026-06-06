@@ -1,7 +1,7 @@
 [
   {
-    "id": "APT001",
-    "patientId": "P001",
+    "id": "1",
+    "patientId": "1",
     "providerId": "PRV001",
     "date": "2025-06-10",
     "time": "09:00",
@@ -10,8 +10,8 @@
     "notes": "Annual wellness check"
   },
   {
-    "id": "APT002",
-    "patientId": "P002",
+    "id": "2",
+    "patientId": "2",
     "providerId": "PRV002",
     "date": "2025-06-11",
     "time": "10:30",
@@ -20,8 +20,8 @@
     "notes": "Cardiac evaluation"
   },
   {
-    "id": "APT003",
-    "patientId": "P003",
+    "id": "3",
+    "patientId": "3",
     "providerId": "PRV001",
     "date": "2025-06-05",
     "time": "14:00",
@@ -30,8 +30,8 @@
     "notes": "Initial intake completed"
   },
   {
-    "id": "APT004",
-    "patientId": "P004",
+    "id": "4",
+    "patientId": "4",
     "providerId": "PRV003",
     "date": "2025-05-28",
     "time": "11:00",
@@ -40,8 +40,8 @@
     "notes": "Patient rescheduled"
   },
   {
-    "id": "APT005",
-    "patientId": "P005",
+    "id": "5",
+    "patientId": "5",
     "providerId": "PRV002",
     "date": "2025-06-15",
     "time": "15:30",
@@ -50,8 +50,8 @@
     "notes": "Echocardiogram"
   },
   {
-    "id": "APT006",
-    "patientId": "P006",
+    "id": "6",
+    "patientId": "6",
     "providerId": "PRV001",
     "date": "2025-05-20",
     "time": "08:30",

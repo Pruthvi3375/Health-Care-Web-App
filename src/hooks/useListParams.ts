@@ -25,11 +25,11 @@ export function useListParams(initial?: Partial<ListParams>) {
     }));
   }, []);
 
-  const setSort = useCallback((sortBy: string) => {
+  const setSort = useCallback((sortBy: string, dir?: 'asc' | 'desc') => {
     setParams((p) => ({
       ...p,
       sortBy,
-      sortDir: p.sortBy === sortBy && p.sortDir === 'asc' ? 'desc' : 'asc',
+      sortDir: dir ?? (p.sortBy === sortBy && p.sortDir === 'asc' ? 'desc' : 'asc'),
       page: 1,
     }));
   }, []);

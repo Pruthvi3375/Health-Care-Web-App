@@ -146,11 +146,16 @@ export function AppointmentsPage() {
           if (editing) {
             await updateAppointment(editing.id, data);
             showToast('success', 'Appointment updated.');
+            load();
           } else {
-            await createAppointment(data);
+            const created = await createAppointment(data);
             showToast('success', 'Appointment scheduled.');
+            setResult((current) => ({
+              data: [created, ...current.data].slice(0, params.pageSize ?? 5),
+              total: current.total + 1,
+            }));
+            setSort('date', 'desc');
           }
-          load();
         }}
       />
     </div>

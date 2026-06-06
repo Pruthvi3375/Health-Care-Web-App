@@ -1,6 +1,6 @@
 import type { Claim, ListParams, PaginatedResult } from '../types';
 import { getDb, persistDb } from './storage';
-import { delay, paginate, searchFilter, sortItems } from './listUtils';
+import { delay, paginate, sortItems } from './listUtils';
 
 export async function listClaims(
   params: ListParams = {}
@@ -10,10 +10,17 @@ export async function listClaims(
   if (params.filters?.status) {
     items = items.filter((c) => c.status === params.filters!.status);
   }
-  items = searchFilter(items, params.search, [
-    'claimNumber',
-    'diagnosisCode',
-  ]);
+  if (params.search?.trim()) {
+    const q = params.search.toLowerCase();
+    const patients = getDb().patients;
+    items = items.filter((claim) => {
+      const patient = patients.find((p) => p.id === claim.patientId);
+      const patientName = patient ? `${patient.firstName} ${patient.lastName}` : '';
+      return [claim.claimNumber, claim.diagnosisCode, patientName].some((value) =>
+        value.toLowerCase().includes(q)
+      );
+    });
+  }
   items = sortItems(items, params.sortBy, params.sortDir);
   return paginate(items, params);
 }
